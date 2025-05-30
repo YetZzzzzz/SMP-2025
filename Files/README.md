@@ -1,1 +1,1 @@
-
+You may find external information provided by former participants [USTC1]((https://github.com/Corleone-Huang/Social-Media-Popularity-Prediction-Challenge-2020) , [USTC2]( https://pan.baidu.com/share/init?surl=wRMKmb3OIol_Yd_ltYyAwg)  (pwd:539j) or former SMP challenge useful [TPIC]((https://smp-challenge.com/2017/index.html)).

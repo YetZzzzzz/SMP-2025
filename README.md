@@ -3,17 +3,17 @@ The solution to Social Media Prediction Challenge
 
 ## This section contains a total of 8 folders, described as follows:
 
-data analysis: Used for analyzing the official dataset.
+**data analysis**: Used for analyzing the official dataset.
 
-Files: Contains additional reference datasets.
+**Files**: Contains additional reference datasets.
 
-feature extraction: Used to extract textual and visual representations using pre-trained models and store them.
+**feature extraction**: Used to extract textual and visual representations using pre-trained models and store them.
 
-DAE+1DCNN, HyFea, RoBERTa, and Tablar: These are the four different models we used.
+**DAE+1DCNN**, **HyFea**, **RoBERTa**, and **Tablur**: These are the four different models we used.
 
-post_blending: Contains code for combining and processing the prediction results from the four models.
+**post_blending**: Contains code for combining and processing the prediction results from the four models.
 
-Note: The HyFea folder includes a script named download_img_and_user.py, which can automatically crawl additional meta-information related to the data.
+**Note**: The **HyFea** folder includes a script named **download_img_and_user.py**, which can automatically crawl additional meta-information related to the data.
 
 During execution, the code generates over 100GB of model files. Due to this large size, we are currently unable to make all of them publicly available. We will selectively release some of the models. Also, due to time constraints and code dependencies, the current implementation is not organized as one-click runnable scripts. We plan to refactor and improve the code structure in future updates to enhance usability.
 

@@ -11,11 +11,6 @@ The third one is [DAE](https://www.kaggle.com/code/isaienkov/keras-autoencoder-d
 
 The fourth is the roberta model only using the text data. The codes are modified from [pre-training codes](https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-itpt/notebook?scriptVersionId=63560998), [finetuning codes](https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-fit/notebook), [inferencing codes](https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-infer/notebook)Besides, we also used the [codes](https://www.kaggle.com/code/andretugan/lightweight-roberta-solution-in-pytorch/notebook) for regression.
 
-#The sixth one is multimodal toolkit, which could be found in https://github.com/georgian-io/Multimodal-Toolkit.
-
-#The seventh one is lightGBM.
-
-#The eighth is DIR model, which could be found in https://github.com/YyzHarry/imbalanced-regression.
 
 ### Features Extraction
 Besides, we have adapted many pretrained models to compore the performance. The models includes but not limited to [CLIP_TXT](https://huggingface.co/laion/CLIP-ViT-B-16-laion2B-s34B-b88K), 
@@ -23,12 +18,3 @@ Besides, we have adapted many pretrained models to compore the performance. The 
 
 The data analysis are in folder data analysis, and the codes for each model are in the corresponding folder. Due to the space limit, the checkpoints are be updated in cloud storage, wichi will be updated soon.
 
-### Code Implementation
-The quickest way to reproduce our model is to run the **./HeyFea-main/test_k_fold_model.py** using the checkpoints in **./HeyFea-main/save_model/**. We used the pesudo-labels technique to get these checkpoints.
-If you want to reproduce the our model from scratch, please follow the steps blow.
-
-Firstly, re-pretrain the roberta models using the script: Waiting to be updated.
-
-Next, extract the features using pretrained models: Waiting to be updated
-
-Finally, use all the features to do the prediction: Waiting to be updates.
